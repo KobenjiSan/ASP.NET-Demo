@@ -62,3 +62,5 @@ docker-compose.override.yml
 
 ## ASP.NET Scaffolding ##
 ScaffoldingReadMe.txt
+
+test-api/
