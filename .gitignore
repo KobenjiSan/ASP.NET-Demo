@@ -1,0 +1,64 @@
+## Build & Publish ##
+bin/
+obj/
+out/
+publish/
+
+## User & Editor Files ##
+.vscode/
+*.code-workspace
+*.user
+*.rsuser
+*.suo
+
+## Logs & Temp ##
+*.log
+*.tlog
+*.tmp
+*.temp
+*.bak
+
+## System ##
+[Dd]esktop.ini
+[Tt]humbs.db
+*.DS_Store
+
+## Dependency Caches ##
+node_modules/
+wwwroot/lib/
+wwwroot/dist/
+wwwroot/build/
+
+## Environment & Config ##
+*.env
+.env.*
+appsettings.Development.json
+secrets.json
+
+## Packages ##
+*.nupkg
+*.snupkg
+*.nuspec
+*.zip
+packages/
+PackageRestoreLogs/
+project.lock.json
+project.fragment.lock.json
+
+## Rider / VS Specific ##
+.idea/
+.vs/
+
+## Testing ##
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+## Docker ##
+docker-compose.override.yml
+*.pid
+*.seed
+
+## ASP.NET Scaffolding ##
+ScaffoldingReadMe.txt
