@@ -52,7 +52,7 @@ namespace src.Services
             _tasksCollection.Add(newTask);
             Save();
 
-            // Return a domain result (entity/collection/boolean/Result)
+            // Return result
             return newTask;
         }
 
